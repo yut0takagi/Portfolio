@@ -1,0 +1,79 @@
+
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Netflix風ポートフォリオ</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="stayle.css"><!DOCTYPE html>
+<style>
+    ::-webkit-scrollbar {
+    display: none;
+    }
+</style>
+</head>
+<body class="bg-black text-white font-sans">
+
+<!-- ナビバー -->
+<header class="fixed top-0 left-0 w-full z-50 bg-black bg-opacity-80 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <h1 class="text-2xl font-bold text-red-600">Portfolio</h1>
+    <nav class="space-x-6 text-sm">
+        <a href="#home" class="hover:text-red-400">Home</a>
+        <a href="#projects" class="hover:text-red-400">Projects</a>
+        <a href="#about" class="hover:text-red-400">About</a>
+        <a href="#contact" class="hover:text-red-400">Contact</a>
+    </nav>
+    </div>
+</header>
+<main class="main max-w-screen-xl mx-auto px-4">
+    
+    <!-- ヒーローセクション -->
+    <section id="home" class="h-screen relative flex items-center justify-center bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?cinema,film');">
+        <div class="bg-black bg-opacity-50 p-10 rounded-lg text-center">
+        <h2 class="text-5xl font-bold mb-4">ポートフォリオへようこそ</h2>
+        <p class="text-lg mb-4">Web制作・機械学習をメインで開発しています。</p>
+        <a href="#projects" class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-full text-white transition">プロジェクトを見る</a>
+        </div>
+    </section>
+    
+    <!-- プロジェクトセクション -->
+    <section id="projects" class="py-12 px-6">
+        <h3 class="text-2xl font-bold mb-6">My Works</h3>
+        <div class="flex overflow-x-auto space-x-6 pb-4">
+        <!-- カード -->
+        <div class="min-w-[200px] bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <a href="practista.html">
+                <img src="" alt="Project 1" class="w-full h-32 object-cover">
+                <div class="p-4">
+                <h4 class="text-lg font-bold">教育支援アプリ</h4>
+                <p class="text-sm text-gray-300">Flask, pulp</p>
+                </div>
+            </a>
+        </div>
+        <div class="min-w-[200px] bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <img src="" alt="Project 2" class="w-full h-32 object-cover">
+            <div class="p-4">
+            <h4 class="text-lg font-bold">受動的アンケート</h4>
+            <p class="text-sm text-gray-300">LLM, 音声対話AI,特許</p>
+            </div>
+        </div>
+        <div class="min-w-[200px] bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <img src="" alt="Project 3" class="w-full h-32 object-cover">
+            <div class="p-4">
+            <h4 class="text-lg font-bold">3D球形推測</h4>
+            <p class="text-sm text-gray-300">機械学習</p>
+            </div>
+        </div>
+        <!-- 必要に応じて追加 -->
+        </div>
+    </section>
+</main>
+
+<!-- フッター -->
+<footer class="bg-black text-center py-6 border-t border-gray-700">
+    <p class="text-gray-400 text-sm">© 2025 YutoTAKAGI Portfolio</p>
+</footer>
+
+</body>
+</html>
