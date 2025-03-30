@@ -32,7 +32,7 @@
     <!-- プロジェクト内容 -->
     <section>
       <h2 class="text-2xl font-semibold text-white mb-2">🎓 学生向け学習支援アプリ - Practista for Student</h2>
-      <p class="text-gray-300 mb-4">使用技術：Flask, pulp, SQLite, Tailwind CSS</p>
+      <p class="text-gray-300 mb-4">使用技術：Flask, SQLite, RAG, ファインチューニング, Tailwind CSS</p>
       <p class="text-gray-400">
         学生の勉強をAIで最適化するサービスとして開発しました。具体的な機能は以下のとおりです。
       </p>
@@ -41,7 +41,7 @@
         <li>課題提出システム</li>
         <li>課題解決用チャットボットシステム</li>
         <li>問題作成システム</li>
-        <li>進路相談要チャットボットシステム</li>
+        <li>進路相談用チャットボットシステム</li>
       </ul>
     </section>
     <section>
@@ -66,13 +66,48 @@
         <p class="text-gray-200 mb-4">課題解決用チャットボットシステム</p>
         <p class="text-gray-400 mb-4">
             学校教材や塾の教材、自宅学習教材などを進める中で、一人で解決できない部分が多くあるでしょう。
+            その中で、教材にとらわれず写真を撮影するだけで、その問題の解法について質問できます。
         </p>
     </section>
-    <div class="text-center pt-10">
+    <section>
+      <p class="text-gray-200 mb-4">問題作成システム</p>
+      <p class="text-gray-400 mb-4">
+          問題集を利用した学習では、ある程度決まった問題でのアウトプットが行えるものの「身についているのか」判断するのは難しいです。
+          そのため、「<span class="text-gray-300">問題集では解けるのにテストでは...</span>」という学生が続出するのです。
+          そこで、実力試しに特化したテスト形式の問題が必要になります。ただし、学生一人ひとりの学力レベルや既習事項内容に遵守する必要があります。
+          そのため、学生一人ひとりの情報を参照したAIがパーソナライズしたテスト形式の問題を生成します。
+          また、その回答を記録することで定着度を数値化し学力の推移を可視化できます。
+      </p>
+  </section>
+  <section>
+    <p class="text-gray-200 mb-4">進路指導用チャットボットシステム</p>
+    <p class="text-gray-400 mb-4">
+        進路指導に特化したチャット形式のAIを提供します。
+        全国の高校,大学の情報を学習したAIで、学生一人ひとりの専門性や夢を汲み取り、マッチするベストな学校を提案します。
+    </p>
+</section>
+<section>
+  <h2 class="text-2xl font-semibold text-white mb-2">🎓 塾教務スタッフ向け指導支援アプリ - Practista for Cram</h2>
+  <p class="text-gray-300 mb-4">使用技術：Flask, pulp, SQLite, Tailwind CSS</p>
+  <p class="text-gray-400">
+    塾のバックオフィス業務を効率化,削減するために開発いたしました。
+  </p>
+  <ul class="list-disc list-inside text-gray-400 mt-2">
+    <li>シフト管理システム</li>
+    <li>授業割り振りシステム</li>
+    <li>生徒,保護者間連絡システム</li>
+    <li>指導方針相談AIチャットボットシステム</li>
+  </ul>
+</section>
+
+
+
+
+
+<div class="text-center pt-10">
       <a href="../portfolio.html" class="text-red-400 hover:underline">← ホームに戻る</a>
     </div>
   </main>
-
   <footer class="bg-black text-center py-6 border-t border-gray-700">
     <p class="text-gray-400 text-sm">© 2025 YutoTAKAGI Portfolio</p>
   </footer>
