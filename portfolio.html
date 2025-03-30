@@ -1,11 +1,11 @@
-
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Netflix風ポートフォリオ</title>
+<title>ポートフォリオ</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="stayle.css"><!DOCTYPE html>
+<link rel="stylesheet" href="stayle.css">
 <style>
     ::-webkit-scrollbar {
     display: none;
@@ -36,14 +36,91 @@
         <a href="#projects" class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-full text-white transition">プロジェクトを見る</a>
         </div>
     </section>
-    
-    <!-- プロジェクトセクション -->
+<!-- 経歴セクション -->
+<section id="about" class="py-16 px-6 bg-black text-white">
+  <h3 class="text-2xl font-bold mb-10 text-center">経歴 / Resume</h3>
+  <div class="max-w-3xl mx-auto space-y-8">
+    <!-- 学歴 -->
+    <div class="relative pl-6 border-l border-gray-700">
+      <div class="absolute top-1 left-[-8px] w-4 h-4 bg-red-600 rounded-full"></div>
+      <h4 class="text-xl font-semibold">2020年 〜 2023年春</h4>
+      <p class="text-gray-300">中央大学附属高等学校</p>
+    </div>    
+    <!-- 学歴 -->
+    <div class="relative pl-6 border-l border-gray-700">
+      <div class="absolute top-1 left-[-8px] w-4 h-4 bg-red-600 rounded-full"></div>
+      <h4 class="text-xl font-semibold">2023年春 〜 現在</h4>
+      <p class="text-gray-300">中央大学 理工学部 ビジネスデータサイエンス学科</p>
+    </div>
+  </div>
+</section>
+    <section id="skils" class="py-12 px-6">
+        <h3 class="text-2xl font-bold mb-6">My Skills</h3>
+      
+        <!-- 横スクロール対応 -->
+        <div class="flex overflow-x-auto flex-nowrap space-x-6 pb-4">
+          
+          <!-- スキルカード -->
+          <div class="min-w-[200px] bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <a href="skils/Python.html">
+              <img src="https://www.bizlearn.jp/cdn/shop/articles/Python-900x506.png?v=1690378041" alt="Python" class="w-full h-32 object-cover">
+              <div class="p-4">
+                <h4 class="text-lg font-bold">Python</h4>
+                <p class="text-sm text-gray-300">データ分析, LLM...</p>
+              </div>
+            </a>
+          </div>
+      
+          <div class="min-w-[200px] bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <a href="skils/R.html">
+            <img src="https://www.codexa.net/wp-content/uploads/2018/07/r_main-1200x630.png" alt="R" class="w-full h-32 object-cover">
+            <div class="p-4">
+              <h4 class="text-lg font-bold">R</h4>
+              <p class="text-sm text-gray-300">機械学習, データの可視化</p>
+            </div>
+            </a>
+          </div>
+      
+          <div class="min-w-[200px] bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <img src="https://www.shoshinsha-design.com/wp-content/uploads/2016/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2016-10-19-23.56.48-760x460.png" alt="HTML" class="w-full h-32 object-cover">
+            <div class="p-4">
+              <h4 class="text-lg font-bold">HTML</h4>
+              <p class="text-sm text-gray-300">Webアプリ開発</p>
+            </div>
+          </div>
+      
+          <div class="min-w-[200px] bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <img src="https://www.shoshinsha-design.com/wp-content/uploads/2016/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2016-10-21-22.58.01.png" alt="CSS" class="w-full h-32 object-cover">
+            <div class="p-4">
+              <h4 class="text-lg font-bold">CSS</h4>
+              <p class="text-sm text-gray-300">Webデザイン</p>
+            </div>
+          </div>
+      
+          <div class="min-w-[200px] bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <img src="https://www.shoshinsha-design.com/wp-content/uploads/2016/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2016-10-21-22.58.06.png" alt="JavaScript" class="w-full h-32 object-cover">
+            <div class="p-4">
+              <h4 class="text-lg font-bold">JavaScript</h4>
+              <p class="text-sm text-gray-300">動的サイト開発</p>
+            </div>
+          </div>
+      
+          <div class="min-w-[200px] bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <img src="https://assets.st-note.com/production/uploads/images/8383728/rectangle_large_type_2_4149a9731c1990299882797776f7dbea.jpg?fit=bounds&quality=85&width=1280" alt="Java" class="w-full h-32 object-cover">
+            <div class="p-4">
+              <h4 class="text-lg font-bold">Java</h4>
+              <p class="text-sm text-gray-300">デスクトップアプリ開発</p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
     <section id="projects" class="py-12 px-6">
         <h3 class="text-2xl font-bold mb-6">My Works</h3>
-        <div class="flex overflow-x-auto space-x-6 pb-4">
+        <div class="flex overflow-x-auto flex-nowrap space-x-6 pb-4">
         <!-- カード -->
         <div class="min-w-[200px] bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-            <a href="practista.html">
+            <a href="project/practista.html">
                 <img src="" alt="Project 1" class="w-full h-32 object-cover">
                 <div class="p-4">
                 <h4 class="text-lg font-bold">教育支援アプリ</h4>
@@ -67,6 +144,43 @@
         </div>
         <!-- 必要に応じて追加 -->
         </div>
+    </section>
+    <!-- Contact セクション -->
+    <section id="contact" class="py-16 px-6 bg-black text-white">
+      <h3 class="text-2xl font-bold mb-10 text-center">Contact</h3>
+    
+      <div class="max-w-2xl mx-auto bg-gray-900 bg-opacity-50 p-8 rounded-lg shadow-lg">
+        
+        <!-- ✅ Netlify Forms対応のformタグ -->
+        <form name="contact" method="POST" data-netlify="true" class="space-y-6">
+          <input type="hidden" name="form-name" value="contact" />
+    
+          <div>
+            <label for="name" class="block text-sm font-medium text-gray-300">お名前</label>
+            <input type="text" id="name" name="name" required
+                   class="mt-1 w-full p-3 rounded bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-red-500" />
+          </div>
+    
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-300">メールアドレス</label>
+            <input type="email" id="email" name="email" required
+                   class="mt-1 w-full p-3 rounded bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-red-500" />
+          </div>
+    
+          <div>
+            <label for="message" class="block text-sm font-medium text-gray-300">メッセージ</label>
+            <textarea id="message" name="message" rows="5" required
+                      class="mt-1 w-full p-3 rounded bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-red-500"></textarea>
+          </div>
+    
+          <div class="text-center">
+            <button type="submit"
+                    class="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-6 rounded transition duration-300">
+              送信
+            </button>
+          </div>
+        </form>
+      </div>
     </section>
 </main>
 
