@@ -1,0 +1,191 @@
+[
+  {
+    "title": "md2pdf",
+    "description": "python package",
+    "link": "https://pypi.org/project/md2pdf-advanced/",
+    "tech": ["WebApp", "streamlit", "md2pdf", "GUI", "CLI"],
+    "image": "/assets/md2pdf.png"
+  },
+  {
+    "title": "AI Agent論文解説",
+    "description": "Spotify Podcasts",
+    "link": "https://yut0takagi.github.io/SpotifyPodcast/",
+    "tech": ["GitHubPages","Spotify Podcasts", "NotebookLM"],
+    "image": "/assets/AI-Agent論文解説.png"
+  },
+  {
+    "title": "薬物治療に関するDA",
+    "description": "信頼性工学",
+    "link": "https://github.com/yut0takagi/Ass_ReliabilityEngineering",
+    "tech": ["信頼性工学", "KM推定法"],
+    "image": "/assets/信頼性.png"
+  },
+  {
+    "title": "Voice2Text App",
+    "description": "🎧 Faster-Whisper File Transcriber",
+    "link": "https://github.com/yut0takagi/faster-whisper-file-app",
+    "tech": ["web app","streamlit", "voice2text", "Whisper"],
+    "image": "/assets/voice2text.png"
+  },
+  {
+    "title": "Dom Inspector AI",
+    "description": "extracts all id and class attributes from a web page",
+    "link": "https://pypi.org/project/dom-inspector-ai/",
+    "tech": ["Scrape", "WebSerchAgent", "Agent"],
+    "image": "/assets/dom_inspector.png"
+  },
+  {
+    "title": "LasDataAnalysis",
+    "description": "pyarrowとlaspyを用いた球面評価",
+    "link": "https://github.com/yut0takagi/LasTokyo",
+    "tech": ["Las３次元データ", "Pyarrow", "Laspay"],
+    "image": "/assets/LasTokyo.png"
+  },
+  {
+    "title": "DataScienceToolKit",
+    "description": "実験計画法等を実施する分析ファイル",
+    "link": "https://github.com/yut0takagi/DataScienceToolKit",
+    "tech": ["実験計画法", "分散分析"],
+    "image": "/assets/DataScienceToolKit.png"
+  },
+  {
+    "title": "タベドキ",
+    "description": "Hackathonでの開発",
+    "link": "https://github.com/yut0takagi/HackathonNo45",
+    "tech": ["Hackathon", "物体検知"],
+    "image": "/assets/タベドキ.png"
+  },
+  {
+    "title": "シフト~授業改革",
+    "description": "個別指導塾での業務DX(初期のみ)",
+    "link": "https://github.com/yut0takagi/LP_class",
+    "tech": ["線形計画法", "業務効率化"],
+    "image": "/assets/LP_Class.png"
+  },
+  {
+    "title": "開発チームメンバ募集",
+    "description": "Bakusoku Dev",
+    "link": "https://yut0takagi.github.io/bakusoku-dev/",
+    "tech": ["PM", "GitHubPages"],
+    "image": "/assets/bakusoku_dev.png"
+  },
+  {
+    "title": "『ペイとも』",
+    "description": "認証機能搭載立て替え管理アプリ",
+    "link": "https://paytomo.onrender.com/home/",
+    "tech": ["Firebase", "Authontication", "線形計画法"],
+    "image": "/assets/ペイとも.png"
+  },
+  {
+    "title": "AIモビリティに関するビジネスモデル",
+    "description": "特許申請準備中のため非公開",
+    "link": "",
+    "tech": ["音声対話AI", "AI"],
+    "image": "/assets/AI_Mo.png"
+  },
+  {
+    "title": "ChatInDiscord",
+    "description": "CHatGPTのDiscordBot",
+    "link": "https://github.com/yut0takagi/ChatWithAPI-Discord",
+    "tech": ["OpenAI API", "Discord Bot"],
+    "image": "/assets/CWAD.png"
+  },
+  {
+    "title": "EncouragingAI-Line",
+    "description": "相談相手のLineBot",
+    "link": "https://github.com/yut0takagi/EncouragingAI-LINE",
+    "tech": ["OpenAI API", "Line Bot"],
+    "image": "/assets/EnLineBot.png"
+  },
+  {
+    "title": "BingoGame",
+    "description": "卒業パーティ用のビンゴ",
+    "link": "https://github.com/yut0takagi/BingoGame",
+    "tech": ["Bingo Game", "Tkinter"],
+    "image": "/assets/Bingo.png"
+  },
+  {
+    "title": "二標本におけるt検定",
+    "description": "簡易なt検定用の関数",
+    "link": "https://github.com/yut0takagi/static-t-test",
+    "tech": ["Stats", "SciPy"],
+    "image": "/assets/t-tests.png"
+  },
+  {
+    "title": "ニュースコメント収集",
+    "description": "LLM用のデータ収集repo",
+    "link": "https://github.com/yut0takagi/Politics-RelatedTweetAnalysis",
+    "tech": ["Selenium", "bs4"],
+    "image": "/assets/yahoo_data_scrape.png"
+  },
+  {
+    "title": "Takaraper",
+    "description": "検定用Python Package",
+    "link": "https://github.com/yut0takagi/Takaraper",
+    "tech": ["Selenium","bs4", "yahoo news"],
+    "image": "/assets/Takaraper.png"
+  },
+  {
+    "title": "レポートViewer",
+    "description": "PDF Web Viewer",
+    "link": "https://yut0takagi.github.io/assignment",
+    "tech": ["Assignment","web app", "pdf"],
+    "image": "/assets/ass.png"
+  },
+  {
+    "title": "QRコードジェネレータ",
+    "description": "QR Code Gen Web App",
+    "link": "https://github.com/yut0takagi/qr-code-gen",
+    "tech": ["QRコード","web app", "streamlit"],
+    "image": "/assets/qr-code.png"
+  },
+  {
+    "title": "天気取得WebApp",
+    "description": "Weather Web App",
+    "link": "https://github.com/yut0takagi/weather_app",
+    "tech": ["天気API","web app", "streamlit"],
+    "image": "/assets/Weather.png"
+  },
+  {
+    "title": "国会アナリティクス",
+    "description": "発言分析",
+    "link": "https://github.com/yut0takagi/kokkai-analytics",
+    "tech": ["LLM","DataAnalysis", "streamlit"],
+    "image": "/assets/KokkaiAnalytics.png"
+  },
+  {
+    "title": "国会アナリティクス2",
+    "description": "発言分析 + 感情分析",
+    "link": "https://github.com/yut0takagi/kokkai-analytics2",
+    "tech": ["LLM","DataAnalysis", "streamlit", "感情分析"],
+    "image": "/assets/KA2.png"
+  },
+  {
+    "title": "SessionSmith",
+    "description": "Pythonのセッション保存",
+    "link": "https://github.com/yut0takagi/SessionSmith",
+    "tech": ["Python", "ipynb","session", "pypi"],
+    "image": "/assets/SessionSmith.png"
+  },
+  {
+    "title": "薬物治療に関するDA",
+    "description": "信頼性工学",
+    "link": "https://github.com/yut0takagi/Ass_ReliabilityEngineering",
+    "tech": ["信頼性工学", "KM推定法"],
+    "image": "/assets/信頼性.png"
+  },
+  {
+    "title": "感性工学実験",
+    "description": "t-tests",
+    "link": "https://github.com/yut0takagi/dsb_katoh",
+    "tech": ["t-tests", "感性工学"],
+    "image": "/assets/dsb_katoh.png"
+  },
+  {
+    "title": "選択クイズアプリ",
+    "description": "Web App",
+    "link": "https://github.com/yut0takagi/mr_app",
+    "tech": ["WebApp", "streamlit"],
+    "image": "/assets/test4.png"
+  }
+  ]
