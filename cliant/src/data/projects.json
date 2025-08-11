@@ -1,5 +1,12 @@
 [
   {
+    "title":"しっくりボーカル",
+    "description":"Ceres Hackathon",
+    "link":"https://github.com/yut0takagi/hackathon-team-b",
+    "tech":["PHP", "Lerabel"],
+    "image":"/assets/しっくりボーカル.png"
+  },
+  {
     "title": "md2pdf",
     "description": "python package",
     "link": "https://pypi.org/project/md2pdf-advanced/",
