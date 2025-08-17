@@ -1,5 +1,12 @@
 [
   {
+    "title":"Streamlitchat2gpt-oss-20b-lmStudio",
+    "description":"gpt-oss20b",
+    "link":"https://github.com/yut0takagi/Streamlitchat2gpt-oss-20b-lmStudio",
+    "tech":["streamlit", "gpt-oss"],
+    "image":"/assets/Streamlitchat2gpt-oss-20b-lmStudio.png"
+  },
+  {
     "title":"しっくりボーカル",
     "description":"Ceres Hackathon",
     "link":"https://github.com/yut0takagi/hackathon-team-b",
