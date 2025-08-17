@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { motion } from "framer-motion"
 import projectList from "../data/projects.json"
+import { Link } from "react-router-dom"
 
 export const Projects = () => {
   const [visibleCount, setVisibleCount] = useState(3)
@@ -12,21 +13,26 @@ export const Projects = () => {
       <h2 className="text-4xl font-bold text-center mb-12">Projects</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {projectList.slice(0, visibleCount).map((project, index) => (
-          <motion.a
+          <motion.div
             key={index}
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gray-800 rounded-xl p-6 hover:shadow-xl hover:-translate-y-1 transition transform duration-300"
+            title={`${project.title} の詳細を見る`}
+            className="bg-gray-800 rounded-xl p-6 hover:shadow-xl hover:-translate-y-1 transition transform duration-300 focus-within:outline-none focus-within:ring-2 focus-within:ring-blue-400"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: index * 0.1 }}
           >
+            <Link
+              to={`/projects/${index}`}
+              className="block"
+              aria-label={`${project.title} の詳細ページへ`}
+            >
             {project.image && (
               <img
                 src={project.image}
                 alt={project.title}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
             )}
@@ -42,7 +48,8 @@ export const Projects = () => {
                 </span>
               ))}
             </div>
-          </motion.a>
+            </Link>
+          </motion.div>
         ))}
       </div>
       {hasMore && (

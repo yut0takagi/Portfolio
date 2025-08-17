@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Yuto Takagi – Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React + Tailwind CSS で構築したポートフォリオサイトです。Vanta.js を用いたアニメーション背景、プロジェクト一覧、自己紹介、コンタクトを掲載しています。
 
-## Available Scripts
+## 技術スタック
 
-In the project directory, you can run:
+- React (CRA)
+- Tailwind CSS
+- Framer Motion
+- Vanta.js (Three.js)
 
-### `npm start`
+## セットアップ
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+npm install
+npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+http://localhost:3000 で確認できます。
 
-### `npm test`
+## ビルド
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm run build
+```
 
-### `npm run build`
+`build/` に最適化された成果物が出力されます。
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 構成
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `src/components/` ヒーロー、プロジェクト、アバウト、コンタクト、ヘッダー/フッター
+- `src/data/projects.json` プロジェクトのメタ情報
+- `src/components/Timeline.jsx` + `src/data/timeline.json` 経歴タイムライン
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 改善点（このリビジョン）
 
-### `npm run eject`
+- Vanta.js の遅延読み込みと `prefers-reduced-motion` 対応で初期表示を高速化
+- 画像の `loading="lazy"`、リンクに `aria-label` 付与などアクセシビリティ改善
+- ナビゲーション（ヘッダー/フッター）とスキップリンク追加、スムーススクロール
+- OGP/Twitter カード、構造化データの追加、メタ情報の整備
+- `projects.json` の表記ゆれ/タイポ修正
+ - NotebookLM音声の再生ボタン追加（`AudioOverview`）。`public/assets/overview.mp3` が存在すればそれを再生、なければブラウザの Web Speech API で読み上げ。
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ルーティング
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `/` ホーム（ヒーロー、Projects、About、Contact）
+- `/projects/:id` 各プロジェクトの詳細ページ（外部リンク、画像、Tech タグ）
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 経歴タイムラインの編集
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`src/data/timeline.json` を編集して、年月・タイトル・説明・関連リンクを追加/更新してください。
+例:
 
-## Learn More
+```
+[
+  {
+    "date": "2023-04",
+    "title": "大学入学",
+    "description": "学科名や研究テーマの概要",
+    "links": [{ "label": "関連プロジェクト", "url": "https://..." }]
+  }
+]
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## NotebookLM の音声を再生する
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- NotebookLM の Audio Overview などで生成した音声ファイル（例: `overview.mp3`）を `cliant/public/assets/overview.mp3` として配置してください。
+- 配置されている場合は、ホームのヒーローにある「再生」ボタンでその音声を再生します。
+- 配置されていない場合は、ブラウザの Web Speech API による読み上げに自動でフォールバックします（対応ブラウザのみ）。
 
-### Code Splitting
+## ライセンス
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+このリポジトリのコンテンツの著作権は制作者に帰属します。

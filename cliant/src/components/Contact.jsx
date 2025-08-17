@@ -33,8 +33,22 @@ export const Contact = () => {
           viewport={{ once: true }}
           transition={{ duration: 1, delay: 0.4 }}
         >
-          <a href="mailto:yutotakagi.for.business@gmail.com" className="hover:text-blue-400">📧</a>
-          <a href="https://github.com/yut0takagi" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">GitHub</a>
+          <a
+            href="mailto:yutotakagi.for.business@gmail.com"
+            className="hover:text-blue-400"
+            aria-label="メールを送る"
+          >
+            📧
+          </a>
+          <a
+            href="https://github.com/yut0takagi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-400"
+            aria-label="GitHub プロフィール"
+          >
+            GitHub
+          </a>
         </motion.div>
       </div>
     </section>

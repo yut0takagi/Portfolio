@@ -6,22 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0e1621" />
     <meta name="description" content="Yuto Takagi のポートフォリオ" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/icon.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/icon.jpg" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!-- OGP（※内容は適宜置き換え） -->
-    <meta property="og:type"        content="website" />
-    <meta property="og:title"       content="Yuto TAKAGI – Portfolio" />
+    <!-- OGP -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Yuto TAKAGI – Portfolio" />
+    <meta property="og:title" content="Yuto TAKAGI – Portfolio" />
     <meta property="og:description" content="Yuto Takagi のポートフォリオ" />
-    <meta property="og:url"         content="https://portfolio-ruw9.onrender.com/" />
-    <meta property="og:image"       content="./assets/icon.jpg" />
-    <!-- アイコン類 -->
-    <link rel="icon" type="image/svg+xml" href="/assets/icon.jpg" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
-    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta property="og:url" content="https://portfolio-ruw9.onrender.com/" />
+    <meta property="og:image" content="%PUBLIC_URL%/assets/icon.jpg" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Yuto TAKAGI – Portfolio" />
+    <meta name="twitter:description" content="Yuto Takagi のポートフォリオ" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/assets/icon.jpg" />
+    <!-- Canonical -->
+    <link rel="canonical" href="https://portfolio-ruw9.onrender.com/" />
 
     <!-- Web フォント：Noto Sans JP / インライン FOIT 回避 -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,6 +44,18 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Yuto TAKAGI – Portfolio</title>
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Yuto Takagi",
+        "url": "https://portfolio-ruw9.onrender.com/",
+        "sameAs": [
+          "https://github.com/yut0takagi"
+        ]
+      }
+    </script>
   </head>
   <body>
     <noscript>JavaScript を有効にしてください。</noscript>

@@ -10,21 +10,21 @@
     "title":"しっくりボーカル",
     "description":"Ceres Hackathon",
     "link":"https://github.com/yut0takagi/hackathon-team-b",
-    "tech":["PHP", "Lerabel"],
+    "tech":["PHP", "Laravel"],
     "image":"/assets/しっくりボーカル.png"
   },
   {
     "title": "md2pdf",
     "description": "python package",
     "link": "https://pypi.org/project/md2pdf-advanced/",
-    "tech": ["WebApp", "streamlit", "md2pdf", "GUI", "CLI"],
+    "tech": ["Web App", "Streamlit", "md2pdf", "GUI", "CLI"],
     "image": "/assets/md2pdf.png"
   },
   {
     "title": "AI Agent論文解説",
     "description": "Spotify Podcasts",
     "link": "https://yut0takagi.github.io/SpotifyPodcast/",
-    "tech": ["GitHubPages","Spotify Podcasts", "NotebookLM"],
+    "tech": ["GitHub Pages","Spotify Podcasts", "NotebookLM"],
     "image": "/assets/AI-Agent論文解説.png"
   },
   {
@@ -38,21 +38,21 @@
     "title": "Voice2Text App",
     "description": "🎧 Faster-Whisper File Transcriber",
     "link": "https://github.com/yut0takagi/faster-whisper-file-app",
-    "tech": ["web app","streamlit", "voice2text", "Whisper"],
+    "tech": ["Web App","Streamlit", "Voice2Text", "Whisper"],
     "image": "/assets/voice2text.png"
   },
   {
     "title": "Dom Inspector AI",
     "description": "extracts all id and class attributes from a web page",
     "link": "https://pypi.org/project/dom-inspector-ai/",
-    "tech": ["Scrape", "WebSerchAgent", "Agent"],
+    "tech": ["Scraping", "WebSearchAgent", "Agent"],
     "image": "/assets/dom_inspector.png"
   },
   {
     "title": "LasDataAnalysis",
-    "description": "pyarrowとlaspyを用いた球面評価",
+    "description": "PyArrow と laspy を用いた球面評価",
     "link": "https://github.com/yut0takagi/LasTokyo",
-    "tech": ["Las３次元データ", "Pyarrow", "Laspay"],
+    "tech": ["LAS 3D データ", "PyArrow", "laspy"],
     "image": "/assets/LasTokyo.png"
   },
   {
@@ -80,14 +80,14 @@
     "title": "開発チームメンバ募集",
     "description": "Bakusoku Dev",
     "link": "https://yut0takagi.github.io/bakusoku-dev/",
-    "tech": ["PM", "GitHubPages"],
+    "tech": ["PM", "GitHub Pages"],
     "image": "/assets/bakusoku_dev.png"
   },
   {
     "title": "『ペイとも』",
     "description": "認証機能搭載立て替え管理アプリ",
     "link": "https://paytomo.onrender.com/home/",
-    "tech": ["Firebase", "Authontication", "線形計画法"],
+    "tech": ["Firebase", "Authentication", "線形計画法"],
     "image": "/assets/ペイとも.png"
   },
   {
@@ -99,7 +99,7 @@
   },
   {
     "title": "ChatInDiscord",
-    "description": "CHatGPTのDiscordBot",
+    "description": "ChatGPT の Discord Bot",
     "link": "https://github.com/yut0takagi/ChatWithAPI-Discord",
     "tech": ["OpenAI API", "Discord Bot"],
     "image": "/assets/CWAD.png"
@@ -108,7 +108,7 @@
     "title": "EncouragingAI-Line",
     "description": "相談相手のLineBot",
     "link": "https://github.com/yut0takagi/EncouragingAI-LINE",
-    "tech": ["OpenAI API", "Line Bot"],
+    "tech": ["OpenAI API", "LINE Bot"],
     "image": "/assets/EnLineBot.png"
   },
   {
@@ -143,28 +143,28 @@
     "title": "レポートViewer",
     "description": "PDF Web Viewer",
     "link": "https://yut0takagi.github.io/assignment",
-    "tech": ["Assignment","web app", "pdf"],
+    "tech": ["Assignment","Web App", "PDF"],
     "image": "/assets/ass.png"
   },
   {
     "title": "QRコードジェネレータ",
     "description": "QR Code Gen Web App",
     "link": "https://github.com/yut0takagi/qr-code-gen",
-    "tech": ["QRコード","web app", "streamlit"],
+    "tech": ["QRコード","Web App", "Streamlit"],
     "image": "/assets/qr-code.png"
   },
   {
     "title": "天気取得WebApp",
     "description": "Weather Web App",
     "link": "https://github.com/yut0takagi/weather_app",
-    "tech": ["天気API","web app", "streamlit"],
+    "tech": ["天気API","Web App", "Streamlit"],
     "image": "/assets/Weather.png"
   },
   {
     "title": "国会アナリティクス",
     "description": "発言分析",
     "link": "https://github.com/yut0takagi/kokkai-analytics",
-    "tech": ["LLM","DataAnalysis", "streamlit"],
+    "tech": ["LLM","Data Analysis", "Streamlit"],
     "image": "/assets/KokkaiAnalytics.png"
   },
   {
