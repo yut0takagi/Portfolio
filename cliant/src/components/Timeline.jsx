@@ -53,10 +53,6 @@ export const Timeline = () => {
             ))}
           </ul>
         </div>
-
-        <p className="text-xs text-gray-500 mt-6 text-center">
-          表示内容は `src/data/timeline.json` を編集して更新できます。
-        </p>
       </div>
     </section>
   );
