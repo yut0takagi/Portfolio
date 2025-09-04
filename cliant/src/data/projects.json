@@ -1,5 +1,12 @@
 [
   {
+    "title":"HackPM",
+    "description":"Hackathon用プロジェクト管理App",
+    "link":"https://yut0takagi.github.io/HackPM/",
+    "tech":["Repo Templates", "Hackathon"],
+    "image":"/assets/HackPM.png"
+  },
+  {
     "title":"Streamlitchat2gpt-oss-20b-lmStudio",
     "description":"gpt-oss20b",
     "link":"https://github.com/yut0takagi/Streamlitchat2gpt-oss-20b-lmStudio",
