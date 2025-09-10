@@ -12,9 +12,33 @@
     "links": []
   },
   {
+    "date": "2025-02",
+    "title": "EngineerGuildHackathon",
+    "description": "食べどきをチームで開発",
+    "links": ["https://github.com/yut0takagi/HackathonNo45"]
+  },
+  {
+    "date": "2025-04",
+  "title": "アントレプレナーシップG-Spark開始",
+  "description": "オンラインケース面接について、壁打ち開始",
+  "links": ["https://www.chuo-u.ac.jp/international/news/2025/04/79405/"]
+  },
+  {
+    "date": "2025-08",
+    "title": "Ceres 3daysインターン",
+    "description": "しっくりボーカルをチームで開発し、優勝",
+    "links": ["https://github.com/yut0takagi/hackathon-team-b"]
+  },
+  {
+    "date": "2025-08",
+  "title": "アントレプレナーシップG-Sparkピッチコンテスト",
+  "description": "ピッチにて、チャレンジ賞受賞",
+  "links": ["https://www.chuo-u.ac.jp/international/news/2025/04/79405/"]
+  },
+  {
     "date": "Present",
     "title": "現在",
-    "description": "プログラミング学習プラットフォームを開発中",
+    "description": "オンラインケース面接を開発中",
     "links": []
   }
 ]
