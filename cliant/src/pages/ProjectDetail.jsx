@@ -28,9 +28,9 @@ const ProjectDetail = () => {
       <Header />
       <main id="main" className="max-w-5xl mx-auto px-6 py-12">
         <nav className="text-sm text-gray-400 mb-6">
-          <a href="/" className="hover:text-blue-400">Home</a>
+          <RouterLink to="/" className="hover:text-blue-400">Home</RouterLink>
           <span className="mx-2">/</span>
-          <a href="/#projects" className="hover:text-blue-400">Projects</a>
+          <RouterLink to="/" state={{ scrollToId: 'projects' }} className="hover:text-blue-400">Projects</RouterLink>
           <span className="mx-2">/</span>
           <span className="text-gray-300">{project.title}</span>
         </nav>

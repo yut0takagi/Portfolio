@@ -1,4 +1,5 @@
 import React from "react";
+import { smoothScrollToY } from "../utils/scroll";
 
 export const Footer = () => {
   return (
@@ -9,7 +10,7 @@ export const Footer = () => {
           href="#top"
           onClick={(e) => {
             e.preventDefault();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            smoothScrollToY(0, 900);
           }}
           className="hover:text-blue-400"
           aria-label="ページ上部へ戻る"
@@ -20,4 +21,3 @@ export const Footer = () => {
     </footer>
   );
 };
-

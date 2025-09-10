@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import projects from "../data/projects.json";
 import { Link } from "react-router-dom";
+import { smoothScrollTo } from "../utils/scroll";
 
 export const FeaturedProjects = () => {
   const featured = projects.slice(0, 3);
@@ -44,7 +45,11 @@ export const FeaturedProjects = () => {
           ))}
         </div>
         <div className="text-center mt-10">
-          <a href="/#projects" className="text-white border border-blue-500 px-6 py-2 rounded-full hover:bg-blue-500 transition">
+          <a
+            href="#projects"
+            onClick={(e) => { e.preventDefault(); smoothScrollTo('projects'); }}
+            className="text-white border border-blue-500 px-6 py-2 rounded-full hover:bg-blue-500 transition"
+          >
             すべてのプロジェクトを見る
           </a>
         </div>
@@ -52,4 +57,3 @@ export const FeaturedProjects = () => {
     </section>
   );
 };
-

@@ -13,6 +13,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
+        {/* Fallback: avoid white screen for unknown hash paths like `#/projects` or `#projects` */}
+        <Route path="*" element={<Home />} />
       </Routes>
     </Router>
   )

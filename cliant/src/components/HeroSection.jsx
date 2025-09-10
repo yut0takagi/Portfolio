@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import { AudioOverview } from "./AudioOverview";
+import { smoothScrollTo } from "../utils/scroll";
 
 export const HeroSection = () => {
   const vantaRef = useRef(null);
@@ -96,6 +97,7 @@ export const HeroSection = () => {
               <div className="flex flex-wrap gap-3 items-center">
                 <motion.a
                   href="#projects"
+                  onClick={(e) => { e.preventDefault(); smoothScrollTo('projects'); }}
                   aria-label="プロジェクト一覧へ移動"
                   className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full text-base font-medium transition focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-black"
                   initial={{ opacity: 0, scale: 0.95 }}
@@ -106,6 +108,7 @@ export const HeroSection = () => {
                 </motion.a>
                 <motion.a
                   href="#contact"
+                  onClick={(e) => { e.preventDefault(); smoothScrollTo('contact'); }}
                   className="border border-gray-600 hover:border-blue-400 hover:text-blue-400 px-6 py-3 rounded-full text-base font-medium transition"
                   initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
