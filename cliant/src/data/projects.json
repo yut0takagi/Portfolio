@@ -1,5 +1,19 @@
 [
   {
+    "title":"error2qiita",
+    "description":"エラ-の説明, 解説をQiitaに自動投稿",
+    "link":"https://github.com/yut0takagi/error2qiita",
+    "tech":["Error", "Hacks", "Qiita"],
+    "image":"assets/error2qiita.png"
+  },
+  {
+    "title":"環境構築用ドキュメント",
+    "description":"Dockerを用いた環境構築のまとめ",
+    "link":"https://github.com/yut0takagi/env-const",
+    "tech":["Docker", "環境構築"],
+    "image":"assets/env-const.png"
+  },
+  {
     "title":"HackPM",
     "description":"Hackathon用プロジェクト管理App",
     "link":"https://yut0takagi.github.io/HackPM/",
